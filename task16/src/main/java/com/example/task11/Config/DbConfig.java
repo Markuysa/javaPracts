@@ -18,14 +18,14 @@ public class DbConfig {
     @Bean
     public HikariDataSource dataSource() {
         HikariConfig config = new HikariConfig();
+        //config.setJdbcUrl("jdbc:postgresql://postgres?cloudSqlInstance=postgres&socketFactory=com.google.cloud.sql.postgres.SocketFactory&user=postgres&password=postgres");
         config.setJdbcUrl("jdbc:postgresql://localhost:5432/postgres");
         config.setUsername("postgres");
         config.setPassword("islam20011");
         return new HikariDataSource(config);
     }
     @Bean
-    public LocalSessionFactoryBean factoryBean(DataSource
-                                                       dataSource) {
+    public LocalSessionFactoryBean factoryBean(DataSource dataSource) {
         LocalSessionFactoryBean sessionFactoryBean = new
                 LocalSessionFactoryBean();
         sessionFactoryBean.setDataSource(dataSource);

@@ -11,12 +11,14 @@ import java.util.List;
 
 @Component
 public class BankService {
-    private Session session;
+    private final Session session;
     public BankService(SessionFactory sessionFactory) {
+
         this.session = sessionFactory.openSession();
     }
 
     public void add(String name, String address) {
+        System.out.println(name+address);
         Bank bank = new Bank(name,address);
         var transaction = session.beginTransaction();
         session.saveOrUpdate(bank);
@@ -25,7 +27,7 @@ public class BankService {
     public void delete(String name) {
 
         var transaction = session.beginTransaction();
-        String hql = "delete Bank where Bank = :name";
+        String hql = "delete from Bank where name= :name";
         session.createQuery(hql).setParameter("name", name).executeUpdate();
         transaction.commit();
     }

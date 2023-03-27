@@ -1,5 +1,6 @@
 package com.example.task11.Services;
 
+import com.example.task11.Entities.Bank;
 import com.example.task11.Entities.Card;
 import jakarta.annotation.PostConstruct;
 import org.hibernate.Session;
@@ -16,7 +17,7 @@ public class CardService {
 
     private Session session;
 
-    public void CardService(SessionFactory sessionFactory) {
+    public CardService(SessionFactory sessionFactory) {
         this.session = sessionFactory.openSession();
     }
 
@@ -26,11 +27,11 @@ public class CardService {
         session.saveOrUpdate(card);
         transaction.commit();
     }
-    public void delete(String cardNumber) {
-
+    public void delete(String cardnumber) {
+        System.out.println(cardnumber);
         var transaction = session.beginTransaction();
-        String hql = "delete from Card where Card.cardNumber = :cardnumber";
-        session.createQuery(hql).setParameter("cardnumber",cardNumber);
+        String hql = "delete from Card where cardnumber= :cardnumber";
+        session.createQuery(hql).setParameter("cardnumber",cardnumber).executeUpdate();
         transaction.commit();
     }
 
@@ -38,4 +39,10 @@ public class CardService {
         return session.createQuery("select a from Card a",
                 Card.class).getResultList();
     }
+    public Bank getBankByCard(String cardnumber){
+        return session.createQuery("from Card where cardnumber = :cardnumber", Card.class)
+                .setParameter("cardnumber",cardnumber).getSingleResult().getBank();
+    }
+
 }
+

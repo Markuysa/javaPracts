@@ -18,11 +18,10 @@ public class BankController {
         this.bankService=bankService;
     }
 
-    @PostMapping()
+    @PostMapping("")
     @ResponseBody
     public void createCard(@RequestParam String name,@RequestParam String address) {
         bankService.add(name,address);
-
     }
 
     @DeleteMapping("/{name}")
@@ -30,8 +29,9 @@ public class BankController {
         bankService.delete(name);
     }
 
-    @GetMapping()
+    @GetMapping("")
     public List<Bank> getAllBanks() {
         return bankService.getAll();
     }
+
 }

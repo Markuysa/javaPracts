@@ -1,6 +1,7 @@
 package com.example.task11.Controllers;
 
 
+import com.example.task11.Entities.Bank;
 import com.example.task11.Entities.Card;
 import com.example.task11.Services.CardService;
 import org.hibernate.query.Query;
@@ -34,5 +35,10 @@ public class CardController {
     public List<Card> getAllCards() {
 
         return cardService.getAll();
+    }
+    @GetMapping(value = "/{cardNumber}/bank")
+    public Bank getBank(@PathVariable String cardNumber){
+        return cardService.getBankByCard(cardNumber);
+
     }
 }
