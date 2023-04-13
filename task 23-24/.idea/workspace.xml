@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04e32df4-ab7a-4047-8fa7-bf8978f9c2ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../task19/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task22/src/main/java/com/example/task11/Config/AspectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task22/src/main/java/com/example/task11/Config/JMXConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task22/src/main/java/com/example/task11/Config/SchedulerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task22/src/main/java/com/example/task11/JavaManagement/SchedulerMBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task22/src/main/java/com/example/task11/Services/SchedulerServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23/src/main/java/com/example/task11/Config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23/src/main/java/com/example/task11/Controllers/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23/src/main/java/com/example/task11/Entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23/src/main/java/com/example/task11/Repository/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23/src/main/java/com/example/task11/Services/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23/src/main/java/com/example/task11/Services/UsersServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23/src/main/resources/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23New/task 23/src/main/java/com/example/task23/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23New/task 23/src/main/java/com/example/task23/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23New/task 23/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23New/task 23/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23New/task 23/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task23New/task 23/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/org/example/FooI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/org/example/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task15/src/main/java/com/example/task11/Config/DbConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task15/src/main/java/com/example/task11/Controllers/BankController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task15/src/main/java/com/example/task11/Controllers/CardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task15/src/main/java/com/example/task11/Controllers/MainControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task15/src/main/java/com/example/task11/Entities/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task15/src/main/java/com/example/task11/Entities/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task15/src/main/java/com/example/task11/Services/BankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task15/src/main/java/com/example/task11/Services/CardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task16/src/main/java/com/example/task11/Controllers/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task16/src/main/java/com/example/task11/Controllers/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task16/src/main/java/com/example/task11/Entities/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task16/src/main/java/com/example/task11/Entities/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task16/src/main/java/com/example/task11/Services/CardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task16/src/main/java/com/example/task11/Services/CardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task19/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task19/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task19/src/main/java/com/example/task11/Services/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task19/src/main/java/com/example/task11/Services/BankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task19/src/main/java/com/example/task11/Services/CardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task19/src/main/java/com/example/task11/Services/CardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task19/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../task19/src/main/resources/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NvVWedTYiUpUvsGrVcRMgI5Ybq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java/unik/task 24",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4597701",
+    "settings.editor.selected.configurable": "profiler.jvm",
+    "spring.configuration.checksum": "452774dbd2ca258b9bfde9fbdadded93"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\unik\task 23-24\src\main\java\ru\sinforge\practice24\Configs" />
+      <recent name="D:\Java\unik\task 23-24\src\main\java\ru\sinforge\practice24\controller" />
+      <recent name="D:\Java\unik\task 23-24\src\main\java\ru\sinforge\practice24\Entities" />
+      <recent name="D:\Java\unik\task 23-24\src\main\java\ru\sinforge\practice24" />
+      <recent name="D:\Java\unik\task 23-24\src\main\java\ru\sinforge\practice24\Repo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.example.task11 in MyWebApplication">
+    <configuration name="BankServiceTest.getSortedByAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.task11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.task11" />
+      <option name="MAIN_CLASS_NAME" value="com.example.task11.BankServiceTest" />
+      <option name="METHOD_NAME" value="getSortedByAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.task11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.task11" />
+      <option name="MAIN_CLASS_NAME" value="com.example.task11.CardServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.task11 in MyWebApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.task11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.task11" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MyWebApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task11.MyWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.task11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MyWebApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sinforge.practice24.MyWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.example.task11 in MyWebApplication" />
+        <item itemvalue="Spring Boot.MyWebApplication (1)" />
+        <item itemvalue="JUnit.CardServiceTest" />
+        <item itemvalue="JUnit.BankServiceTest.getSortedByAddress" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04e32df4-ab7a-4047-8fa7-bf8978f9c2ab" name="Changes" comment="" />
+      <created>1680544578052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680544578052</updated>
+      <workItem from="1680544593575" duration="4494000" />
+      <workItem from="1680549734192" duration="3488000" />
+      <workItem from="1680763594307" duration="80000" />
+      <workItem from="1681239542758" duration="154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/task_23_24$MyWebApplication__1_.ic" NAME="MyWebApplication (1) Coverage Results" MODIFIED="1680548009724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.task11.*</FILTER>
+    </SUITE>
+  </component>
+</project>

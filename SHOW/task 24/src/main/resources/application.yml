@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url:
+    username: postgres
+    password: islam20011
+  mail:
+    host: "smtp.mail.ru"
+    username: "markuysa.study@mail.ru"
+    password: "73q7PFntNRAT650asib3"
+    port: "465"
+    protocol: "smtps"
+  jpa:
+    hibernate:
+      ddl-auto: update
+  session:
+    jdbc:
+      initialize-schema: always
+      table-name: "SPRING_SESSION"
+
